@@ -42,6 +42,9 @@ public class ArraysHelper {
          */
         Integer[] arr = ArraysHelper.flatten(new Object[] { new Object[] {1,2, new Object[] {3}},4});
 
+        //The following display statement added by Gaja on Feb 16 2022
+        System.out.println("Displaying the flattened array of integers");  
+ 
         //Prints the result
         Arrays.stream(arr).forEach(System.out::println);
     }

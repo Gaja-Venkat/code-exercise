@@ -1,7 +1,4 @@
 apply plugin: 'java'
-apply plugin: 'application'
-
-mainClassName = 'com.example.ArraysHelper'
 
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
